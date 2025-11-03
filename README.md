@@ -146,9 +146,11 @@ hwclock --systohc
 vim /etc/locale.gen
 ```
 
--   Uncomment:
+-   Uncomment the line:
 
         en_US.UTF-8 UTF-8
+
+-    Then:
 
 ``` bash
 echo "LANG=en_US.UTF-8" > /etc/locale.conf

@@ -70,6 +70,7 @@ ping ping.archlinux.org
 
 > Then input these commands in this exact order.
 
+
   Command        Description
   -------------- -------------------------------------
   `g`            Create new GPT partition table

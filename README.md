@@ -71,21 +71,22 @@ ping ping.archlinux.org
 > Then input these commands in this exact order.
 
 
-  Command        Description
-  -------------- -------------------------------------
-  `g`            Create new GPT partition table
-  `n`            Create EFI boot partition
-  `ENTER`        Default partition number
-  `ENTER`        Default first sector
-  `+512M`        Set partition size
-  `t`            Select the partition you just made's type
-  `1`            Set type to EFI System
-  `n`            Create root partition
-  `ENTER`        Default partition number
-  `ENTER`        Default sector
-  `ENTER`        Use remaining disk space
-  `p`            Should show /dev/sda1 and /dev/sda2 with the correct types, if you failed, just run 'q' and restart this section
-  `w`            Write changes
+| Command | Description                                                                                                          |
+| ------- | -------------------------------------------------------------------------------------------------------------------- |
+| `g`     | Create new GPT partition table                                                                                       |
+| `n`     | Create EFI boot partition                                                                                            |
+| `ENTER` | Default partition number                                                                                             |
+| `ENTER` | Default first sector                                                                                                 |
+| `+512M` | Set partition size                                                                                                   |
+| `t`     | Select the partition you just made's type                                                                            |
+| `1`     | Set type to EFI System                                                                                               |
+| `n`     | Create root partition                                                                                                |
+| `ENTER` | Default partition number                                                                                             |
+| `ENTER` | Default sector                                                                                                       |
+| `ENTER` | Use remaining disk space                                                                                             |
+| `p`     | Should show `/dev/sda1` and `/dev/sda2` with the correct types. If you failed, just run `q` and restart this section |
+| `w`     | Write changes                                                                                                        |
+
 
 ------------------------------------------------------------------------
 
